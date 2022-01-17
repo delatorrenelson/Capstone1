@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Fontawesom -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Porfolio Website</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top fw-bold">
+      <div class="container">
+        <a class="navbar-brand" href="#home_section">
+          <img id="brand_icon" src="assets/img/myAvatar_glass.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars text-theme-color1"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-center">
+            <a class="nav-link text-theme-color1" href="#home_section">Home</a>
+            <a class="nav-link text-theme-color1" href="#about">About Me</a>
+            <a class="nav-link text-theme-color1" href="#projects">Projects</a>
+            <a class="nav-link text-theme-color1" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header ends here-->
+
+    <!-- Main -->
+    <div class="row align-items-center flex-grow-1 section" id="home_section">
+      <!-- <div class="row align-items-center" id="home_container"> -->
+      <div class="col-md-5 order-md-2">
+        <img id="profile" src="assets/img/profile.png" alt="" class="img-fluid">
+        <!-- <img id="profile" src="https://via.placeholder.com/500/" alt="" class="img-fluid"> -->
+      </div>
+      <div class="col-md-7 order-md-1">
+        <p class="">
+        <h4 class="fw-bold">Hi</h4>
+        <h1 class="fw-bold text-theme-color1" id="name">I'm, Nelson</h1>
+        <h2 class="fw-bold">Frontend Web Developer</h2>
+        </p>
+        <p>
+          <small class="d-block pb-2">
+            <i class="fas fa-envelope"></i>
+            <a class="text-decoration-none text-dark" href="#">delatorrenelson127@gmail.com</a>
+          </small>
+          <small class="d-block pb-2">
+            <i class="fas fa-phone"></i>
+            <a class="text-decoration-none text-dark" href="#">0915-7047-251</a>
+          </small>
+          <small class="d-block pb-2">
+            <i class="fas fa-map-marker-alt"></i>
+            <a class="text-decoration-none text-dark" href="#">Caloocan City, Manila, Philippines</a>
+          </small>
+        </p>
+      </div>
+      <!-- </div> -->
+    </div>
+    <!-- About -->
+    <div class="row flex-grow-1 section" id="about">
+      <div class="col-12 mt-4">
+        <div class="container mb-4">
+          <div class="row">
+            <div class="col-8 offset-2">
+              <div class="justify-content-center">
+                <h2 class="text-center fw-bold text-theme-color1">About Me</h2>
+                <p class="text-center">
+                  I'm a passionate Graphic Designer, Frontend Web Developer and a Creative Problem solver.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
+          <li class="nav-item text-center" role="presentation">
+            <button class="nav-link text-theme-color1 text-center active" id="pills-profile-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+              aria-selected="false">Education</button>
+          </li>
+          <li class="nav-item text-center" role="presentation">
+            <button class="nav-link text-theme-color1 text-center" id="pills-contact-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+              aria-selected="false">Skills</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">BS Information Technology</h5>
+                    <p class="card-text">At Bestlink College of the Philippines</p>
+                    <small>Year 2019</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Web Development Certificate</h5>
+
+                    <p class="card-text">At TESDA School Excel</p>
+                    <small>Year 2015</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Wed Design Certificate</h5>
+                    <p class="card-text">At TESDA School Excel</p>
+                    <small>Year 2012</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">HTML</h5>
+                    <small>Semantic Web Structuring</small>
+                    <div class="progress">
+                      <div id="html" class="progress-bar bg-theme-color1" role="progressbar" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">CSS</h5>
+                    <small>Creative Styling</small>
+                    <div class="progress">
+                      <div id="css" class="progress-bar bg-theme-color1" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Javascript</h5>
+                    <small>For interactive web behaviour</small>
+                    <div class="progress">
+                      <div id="javascript" class="progress-bar bg-theme-color1" role="progressbar" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 my-3">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Graphics Software</h5>
+                    <small>Like Figma, Photoshop, Illustrator and CorelDraw</small>
+                    <div class="progress">
+                      <div id="graphics" class="progress-bar bg-theme-color1" role="progressbar" aria-valuenow="65"
+                        aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About ends here-->
+    <!-- Projects-->
+    <div class="row align-items-center flex-grow-1 section" id="projects">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <h2 class="text-center fw-bold text-theme-color1">Projects</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-4 rounded-5 my-4">
+                <div class="card shadow bg-body">
+                  <img class="" alt="100%x280" src="assets/img/preview1.png">
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 rounded-5 my-4">
+                <div class="card shadow bg-body">
+                  <img class="" alt="100%x280" src="assets/img/preview2.jpg">
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 rounded-5 my-4">
+                <div class="card shadow bg-body">
+                  <img class="" alt="100%x280" src="assets/img/preview3.png">
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-4 rounded-5 my-4">
+                <div class="card shadow bg-body">
+                  <img class="" alt="100%x280" src="assets/img/preview4.png">
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment 2</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 rounded-5 my-4">
+                <div class="card shadow bg-body">
+                  <img class="" alt="100%x280" src="assets/img/preview5.png">
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment 2</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 rounded-5 my-4">
+                <div class="card shadow bg-body">
+                  <img class="" alt="100%x280" src="assets/img/preview6.png">
+                  <div class="card-body">
+                    <h4 class="card-title">Special title treatment 2</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Control -->
+        <div class="col-12 text-right">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <i class="fas fa-chevron-left fa-4x text-theme-color1"></i>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <i class="fas fa-chevron-right fa-4x text-theme-color1"></i>
+          </button>
+        </div>
+        <!-- Carousel Control ends -->
+      </div>
+    </div>
+    <!-- Projects ends here-->
+    <!-- Contact-->
+    <div class="row flex-grow-1 section" id="contact">
+      <div class="col-12">
+        <h2 class="text-center fw-bold text-theme-color1 mt-4">Contact</h2>
+        <p class="text-center">
+          For inquiries, feel free to contact me or visit my office.
+        </p>
+        <p class="text-center">
+          Let's have a coffee.
+        </p>
+      </div>
+      <div class="col-12 col-lg-6 mb-5">
+        <h2>Inbox Me</h2>
+        <div class="mb-1">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+            placeholder="yoursample@email.com">
+          <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-1">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" placeholder="Leave your message here" id="message" rows="3"></textarea>
+          <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div>
+        <button type="submit" class="btn text-white fw-700 bg-theme-color1 mt-2" data-bs-toggle="modal"
+          data-bs-target="#sendMessageModal">
+          Send Message <i class="far fa-paper-plane"></i>
+        </button>
+      </div>
+      <div class="col-12 col-lg-6 mb-5">
+        <h2>Or Vist Us</h2>
+        <div class="ratio ratio-16x9 bg-white shadow rounded-3">
+          <iframe class="p-1 rounded-3"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.410040986073!2d121.04148921538214!3d14.632650280212085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afe6a39331%3A0xd367e6dc5e274032!2sCaswynn%20Building%2C%20134%20Timog%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%201103%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1641966705330!5m2!1sen!2sph"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="container-fluid">
+        <nav class="d-flex justify-content-center">
+          <a target="_blank" class="nav-link text-theme-color1 fw-light" href="https://www.facebook.com/">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a target="_blank" class="nav-link text-theme-color1 fw-light" href="https://github.com/delatorrenelson"><i
+              class="fab fa-github fa-lg"></i></a>
+          <a target="_blank" class="nav-link text-theme-color1 fw-light" href="https://twitter.com/">
+            <i class="fab fa-twitter fa-lg"></i></a>
+          <a target="_blank" class="nav-link text-theme-color1 fw-light" href="https://www.instagram.com/">
+            <i class="fab fa-instagram-square fa-lg"></i></a>
+          <a target="_blank" class="nav-link text-theme-color1 fw-light" href="https://www.linkedin.com/">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </nav>
+        <p class="d-flex justify-content-center">
+          <small class="text-theme-color1">&#169; All rights reserved 2022</small>
+        </p>
+      </div>
+      <!-- Footer ends here -->
+    </div>
+
+    <!-- Contact ends here-->
+    <!-- Main ends here-->
+  </div>
+
+  <!-- The Modal -->
+  <div class="modal" id="sendMessageModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Thank your for contacting us.</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Your message successfully sent.
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-xs bg-theme-color1 text-white" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $('.nav-link').on('click',function(){
+        console.log('working')
+      })
+  </script>
+</body>
+
+</html>
